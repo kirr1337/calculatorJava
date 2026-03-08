@@ -13,7 +13,7 @@ class Main{
             calculator.SetNum1(input.nextDouble()); // берем ввод у пользователя:
 
             System.out.println("\nХорошо, теперь введите знак действия(+, -, *, /)\nили нажмите \"q\" для выхода: ");
-            String op = input.next();
+            String op = input.next(); //
 
             if (op.equalsIgnoreCase("q"))
             {
